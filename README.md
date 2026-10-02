@@ -1,41 +1,30 @@
-# CO2 Emissions Analysis — KMeans Clustering
-## York University — Big Data Analytics Certificate (2024)
-
-**Author:** Lalita  
-**Tools:** Python, Pandas, Scikit-learn, Matplotlib, Seaborn  
-**Dataset:** Canadian Government Vehicle Data (7,385 records)  
+# CO2 Emissions Analysis - KMeans Clustering
 
 ## Project Overview
-Analysis of Canadian vehicle CO2 emissions data using KMeans 
-Clustering to identify distinct vehicle groups based on engine 
-size, cylinders and CO2 emissions.
+Analyzed 7,385 Canadian vehicle records using KMeans clustering to group vehicles by engine size, cylinders, and CO2 emissions. Completed as part of the York University Big Data Analytics Certificate (2024).
 
-## Key Findings
-| Cluster | Vehicle Type | Avg Engine | Avg CO2 |
-|---|---|---|---|
-| Cluster 2 | Low Emission | 2.0 L | 202.9 g/km |
-| Cluster 0 | Medium Emission | 3.4 L | 263.7 g/km |
-| Cluster 1 | High Emission | 5.3 L | 330.5 g/km |
-
-## Model Performance
-- Total vehicles analyzed: 7,385
-- clusters identified: 3
-- Algorithm: KMeans Clustering
-
-## Conclusion
-Larger engine size strongly correlates with higher CO2 emissions. 
-KMeans clustering successfully identified 3 distinct vehicle 
-emission groups from Canadian government data.
-
-## Technologies Used
+## Tools Used
 - Python
 - Pandas
-- Scikit-learn
+- Scikit-learn (KMeans, StandardScaler)
 - Matplotlib
 - Seaborn
-- KMeans Clustering
 
-## Links
-- 🔗 Kaggle: kaggle.com/lalitacanada
-- 💼 LinkedIn: linkedin.com/in/lalita-lalita-1778672a3# co2-emissions-analysis
-CO2 Emissions Analysis using KMeans Clustering — York University 2024
+## Key Insights
+![CO2 Dashboard](co2_dashboard.png)
+
+| Cluster | Vehicle Type | Vehicles | Avg Engine | Avg CO2 |
+|---|---|---|---|---|
+| Cluster 0 | Low Emission | 3,282 | 2.0 L | 202.9 g/km |
+| Cluster 1 | Medium Emission | 2,562 | 3.4 L | 263.7 g/km |
+| Cluster 2 | High Emission | 1,541 | 5.3 L | 330.5 g/km |
+
+1. Larger engine size strongly correlates with higher CO2 emissions
+2. High-emission vehicles produce about 63% more CO2 than low-emission vehicles
+3. Low-emission vehicles make up the largest group, at 44% of all vehicles
+
+## Dataset
+CO2 Emissions Canada dataset from Kaggle (7,385 vehicles)
+
+## View Full Project on Kaggle
+https://www.kaggle.com/code/lalitacanada/co2-emissions-analysis-kmeans-clustering-york
