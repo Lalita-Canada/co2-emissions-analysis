@@ -4,11 +4,8 @@
 Analyzed 7,385 Canadian vehicle records using KMeans clustering to group vehicles by engine size, cylinders, and CO2 emissions. Completed as part of the York University Big Data Analytics Certificate (2024).
 
 ## Team Project
-This was a group project for the York University Big Data Analytics Certificate (2024).
-
-My contributions: I worked with my team on all stages of the project, including data preparation, analysis, and presenting findings.
-
-In 2026, I re-ran and improved the analysis independently, making the cluster labels stable by renumbering clusters by average CO2 emissions.
+## About This Project
+Inspired by our Group 2 project on vehicle CO2 emissions in the York University Big Data Analytics Certificate (2024). I built this notebook independently in 2026 using a public Kaggle dataset and a different approach (KMeans clustering).
 
 ## Tools Used
 - Python
