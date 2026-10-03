@@ -5,8 +5,8 @@ Analyzed 7,385 Canadian vehicle records using KMeans clustering to group vehicle
 
 ## Team Project
 This was a group project for the York University Big Data Analytics Certificate (2024).
-My contributions: [what you did, e.g., data cleaning, writing the SQL queries, building the charts, presenting findings]
-In 2026, I re-ran and improved the analysis independently, including [the fix for this project].
+My contributions: [e.g., data cleaning, building the KMeans model, creating the charts]
+In 2026, I re-ran and improved the analysis independently, making the cluster labels stable by renumbering clusters by average CO2 emissions.
 
 ## Tools Used
 - Python
